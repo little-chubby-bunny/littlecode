@@ -1,37 +1,70 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/little-chubby-bunny/littlecode/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+给小月半兔的脱贫指南
 
-### Markdown
+# 资源
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[algorithm-essentials](https://soulmachine.gitbooks.io/algorithm-essentials/content/java/)
+待添加...
 
-```markdown
-Syntax highlighted code block
+# 顺序
+1. 基本Tag, `Array, String, Tree, LinkedList, Math`
+2. 前150题
+3. 高频题
+4. Company Tag
 
-# Header 1
-## Header 2
-### Header 3
+# 流程
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## init or clone
+### init
+```echo "# littlecode" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/little-chubby-bunny/littlecode.git
+git push -u origin master
+```
+### clone
+```
+git clone https://github.com/little-chubby-bunny/littlecode.git`
+git pull origin master`
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## feature branch (todo)
+```
+git checkout -b feature/branch
+git pull origin master
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/little-chubby-bunny/littlecode/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## check in (in progress)
 
-### Support or Contact
+```
+git add files
+git commit -m "xxxx"
+git push -u origin feature/branch
+```
+## create PR (交作业)
+```
+1. click "New pull request" button
+2. Compare changes. base: master, compare: feature/branch
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## CR approval(检查作业)
+`Code Review Comments`
+
+# 重点
+- word search 1,2 
+- word break 1,2
+- word ladder 1,2 
+- Longest Increasing Subsequence 
+- sort color
+- LRU，insert & delete in O(1)
+- rob house 1, 2, 3 
+- 2,3,4sum 这种题要达到闭眼秒杀的程度
+- min/max heap 
+- bucket sort 
+- topological sort 
+- binary pre/in/post/level traversal 
+- combination/permutation 这种东西要做梦都梦到
+
