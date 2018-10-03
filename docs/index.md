@@ -17,6 +17,7 @@
 
 ## init or clone
 ### init
+
 ```echo "# littlecode" >> README.md
 git init
 git add README.md
@@ -25,6 +26,7 @@ git remote add origin https://github.com/little-chubby-bunny/littlecode.git
 git push -u origin master
 ```
 ### clone
+
 ```
 git clone https://github.com/little-chubby-bunny/littlecode.git`
 git pull origin master`
