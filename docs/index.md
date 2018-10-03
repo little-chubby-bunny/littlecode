@@ -25,6 +25,7 @@ git commit -m "first commit"
 git remote add origin https://github.com/little-chubby-bunny/littlecode.git
 git push -u origin master
 ```
+
 ### clone
 
 ```
@@ -34,6 +35,7 @@ git pull origin master`
 
 
 ## feature branch (todo)
+
 ```
 git checkout -b feature/branch
 git pull origin master
@@ -46,7 +48,9 @@ git add files
 git commit -m "xxxx"
 git push -u origin feature/branch
 ```
+
 ## create PR (交作业)
+
 ```
 1. click "New pull request" button
 2. Compare changes. base: master, compare: feature/branch
